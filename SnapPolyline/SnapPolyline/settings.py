@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rnu7xjq@s&k7zn9-$xnrdr=x*f-wpgrm2*wcniye_bt$@es6=d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'SnapPointsAPI.apps.SnappointsapiConfig',
     'rest_framework',
     'corsheaders',
+    'django_extensions',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
