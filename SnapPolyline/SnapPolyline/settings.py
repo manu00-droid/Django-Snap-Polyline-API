@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'SnapPointsAPI.apps.SnappointsapiConfig'
+    'SnapPointsAPI.apps.SnappointsapiConfig',
     'rest_framework',
     'corsheaders',
 ]
